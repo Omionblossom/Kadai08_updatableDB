@@ -41,7 +41,7 @@ $stmt = $pdo->prepare(
                             age = :age , 
                             type = :type ,
                             record = :record , 
-                            indate = sysdate()
+                            date = sysdate()
 
                             WHERE id = :id;');
 
